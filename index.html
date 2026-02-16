@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inmobiliaria - Videos del proyecto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Proyecto de Lotes en Juan de Acosta</h1>
+    <p>Conoce cada detalle del terreno con nuestra galería de videos.</p>
+  </header>
+
+  <main>
+    <section class="videos" aria-label="Sección de videos">
+      <div class="section-head">
+        <h2>Carrousel de videos</h2>
+        <p>Desliza para ver avances, ubicación y testimonios.</p>
+      </div>
+
+      <div class="carousel" aria-roledescription="carousel">
+        <button class="nav nav-prev" aria-label="Video anterior">&#10094;</button>
+
+        <div class="track-wrapper">
+          <ul class="track">
+            <li class="slide active" aria-label="Video 1 de 4">
+              <article class="video-card">
+                <video controls preload="metadata" poster="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80">
+                  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+                  Tu navegador no soporta videos en HTML5.
+                </video>
+                <h3>Vista aérea del proyecto</h3>
+                <p>Observa la distribución general de lotes y vías de acceso.</p>
+              </article>
+            </li>
+
+            <li class="slide" aria-label="Video 2 de 4">
+              <article class="video-card">
+                <video controls preload="metadata" poster="https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1200&q=80">
+                  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+                  Tu navegador no soporta videos en HTML5.
+                </video>
+                <h3>Recorrido por los lotes</h3>
+                <p>Camina virtualmente por las zonas disponibles para inversión.</p>
+              </article>
+            </li>
+
+            <li class="slide" aria-label="Video 3 de 4">
+              <article class="video-card">
+                <video controls preload="metadata" poster="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80">
+                  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                  Tu navegador no soporta videos en HTML5.
+                </video>
+                <h3>Conectividad y entorno</h3>
+                <p>Conoce la cercanía a servicios, playa y puntos turísticos.</p>
+              </article>
+            </li>
+
+            <li class="slide" aria-label="Video 4 de 4">
+              <article class="video-card">
+                <video controls preload="metadata" poster="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&w=1200&q=80">
+                  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
+                  Tu navegador no soporta videos en HTML5.
+                </video>
+                <h3>Testimonios de compradores</h3>
+                <p>Escucha experiencias reales de quienes ya invirtieron.</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+
+        <button class="nav nav-next" aria-label="Siguiente video">&#10095;</button>
+      </div>
+
+      <div class="dots" aria-label="Seleccionar video"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
