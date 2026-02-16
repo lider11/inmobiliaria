@@ -77,3 +77,24 @@ Si se elimina/renombra alguno de estos IDs, la funcionalidad se rompe.
 - Reemplazar lotes demo por inventario real.
 - Opcional: mover estilos inline del toast a CSS para mantenimiento.
 - Opcional: agregar validaciones más estrictas al formulario (teléfono y email).
+
+## 11) Propuestas para mejorar amenidades (comercial y experiencia)
+1. **Club social multipropósito**
+   - Salón para eventos familiares y comunitarios con zona BBQ y cocineta.
+   - Beneficio: incrementa la percepción de valor del proyecto y fomenta vida en comunidad.
+
+2. **Circuito eco-deportivo**
+   - Senderos peatonales/ciclorruta con estaciones de ejercicio al aire libre y señalética.
+   - Beneficio: apela a compradores que priorizan bienestar, naturaleza y hábitos saludables.
+
+3. **Zona de bienestar campestre**
+   - Espacio para yoga/meditación, mirador, jardines nativos y áreas de descanso.
+   - Beneficio: diferencia el proyecto frente a ofertas urbanas y refuerza la promesa de tranquilidad.
+
+4. **Amenidades familiares seguras**
+   - Parque infantil con piso amortiguado, cancha múltiple y área pet-friendly delimitada.
+   - Beneficio: amplía el mercado objetivo (familias con niños y mascotas) y mejora permanencia.
+
+5. **Infraestructura de conectividad y trabajo remoto**
+   - Puntos Wi-Fi en áreas comunes, pérgolas con enchufes y pequeño coworking campestre.
+   - Beneficio: aumenta atractivo para compradores que combinan vivienda, descanso y teletrabajo.
