@@ -1,0 +1,172 @@
+:root {
+  --bg: #f7f8fc;
+  --surface: #ffffff;
+  --primary: #1947e5;
+  --text: #1c2230;
+  --muted: #647084;
+  --shadow: 0 8px 30px rgba(24, 42, 76, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 40%);
+}
+
+.hero {
+  text-align: center;
+  padding: 3.5rem 1rem 2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.7vw, 2.6rem);
+}
+
+.hero p {
+  margin-top: 0.75rem;
+  color: var(--muted);
+}
+
+main {
+  width: min(1100px, 92vw);
+  margin: 0 auto 4rem;
+}
+
+.section-head {
+  margin-bottom: 1rem;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+}
+
+.section-head p {
+  margin-top: 0.45rem;
+  color: var(--muted);
+}
+
+.carousel {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.track-wrapper {
+  overflow: hidden;
+}
+
+.track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  transition: transform 380ms ease;
+}
+
+.slide {
+  min-width: 100%;
+  padding: 0.5rem;
+}
+
+.video-card {
+  background: var(--surface);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: min(440px, 52vw);
+  background: #121212;
+  display: block;
+}
+
+.video-card h3,
+.video-card p {
+  margin: 0;
+  padding-inline: 1rem;
+}
+
+.video-card h3 {
+  padding-top: 1rem;
+}
+
+.video-card p {
+  color: var(--muted);
+  padding: 0.6rem 1rem 1.2rem;
+}
+
+.nav {
+  border: none;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  font-size: 1.45rem;
+  cursor: pointer;
+}
+
+.nav:hover {
+  filter: brightness(1.07);
+}
+
+.nav:disabled {
+  background: #b8c2db;
+  cursor: not-allowed;
+}
+
+.dots {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  border: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #c4cde4;
+  cursor: pointer;
+}
+
+.dot[aria-current="true"] {
+  background: var(--primary);
+}
+
+@media (max-width: 720px) {
+  .carousel {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .nav {
+    width: 100%;
+    border-radius: 12px;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .nav-prev {
+    order: 2;
+  }
+
+  .nav-next {
+    order: 3;
+  }
+
+  .track-wrapper {
+    order: 1;
+  }
+}
